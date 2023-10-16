@@ -1,0 +1,115 @@
+/* Form.css */
+.form-container {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.dropzone {
+  border: 2px dashed #ddd;
+  padding: 20px;
+  cursor: pointer;
+  background: #f5f5f5;
+  border-radius: 6px;
+  margin: 20px 0;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #888;
+}
+
+.dropzone:hover {
+  background: #e0e0e0;
+}
+
+/* Selected file display */
+.dropzone .selected-file {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Upload button styles */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Terminal-like frame for server response */
+.server-response {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.server-response p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.terminal-content {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+/* Transaction Hash input and button styles */
+.txhash-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.txhash-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.open-tx-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.open-tx-button:hover {
+  background: #45a045;
+}
+
+/* Style for the <p> element */
+.server-response p {
+  border-bottom: 3px solid #ddd;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.separator {
+  margin: 20px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
